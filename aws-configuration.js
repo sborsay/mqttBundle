@@ -18,8 +18,8 @@
  * example application.
  */
 var awsConfiguration = {
-  poolId: "eu-west-1:5e5a85be-f33e-41b3-8622-74d98aaf0949", // 'YourCognitoIdentityPoolId'
-  host: "a32qaa131oyees-ats.iot.eu-west-1.amazonaws.com", // 'YourAwsIoTEndpoint',
+  poolId: "xxx", // 'YourCognitoIdentityPoolId'
+  host: "xxx", // 'YourAwsIoTEndpoint',
   region: "eu-west-1", // 'YourAwsRegion', e.g. 'us-east-1'
 };
 module.exports = awsConfiguration;
