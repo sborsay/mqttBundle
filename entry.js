@@ -10,7 +10,7 @@ console.log("Loaded AWS SDK for JavaScript and AWS IoT SDK for Node.js");
 var currentlySubscribedTopic = "subscribe-topic";
 
 //
-// Remember our message history here.
+// Remember our message history here..
 //
 var messageHistory = "";
 
