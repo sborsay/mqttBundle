@@ -29,8 +29,8 @@ AWS.config.credentials = new AWS.CognitoIdentityCredentials({
 });
 
 //
-// Create the AWS IoT device object.  Note that the credentials must be
-// initialized with empty strings; when we successfully authenticate to
+// Create the AWS IoT device object.  Note that the credentials must be /
+// initialized with empty strings; when we successfully authenticate to /
 // the Cognito Identity Pool, the credentials will be dynamically updated.
 //
 const mqttClient = AWSIoTData.device({
