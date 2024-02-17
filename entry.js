@@ -5,7 +5,7 @@ var AWSConfiguration = require("./aws-configuration.js");
 console.log("Loaded AWS SDK for JavaScript and AWS IoT SDK for Node.js");
 
 //
-// Remember our current subscription topic here.
+// Remember our current subscription topic here..
 //
 var currentlySubscribedTopic = "subscribe-topic";
 
